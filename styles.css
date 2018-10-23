@@ -1,0 +1,39 @@
+body {
+   font-family: "FantasqueSansMonoRegular", "Lucida Grande", Tahoma, Sans-Serif; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+.accent-background-color {
+    background-color: magenta;
+}
+.accent-color {
+    color: magenta;
+}
+
+
+.main-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.main-content {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 75%;
+}
+.left-box {
+}
+.right-box {
+}
+
+@media all and (max-width: 500px) {
+    .main-content {
+        width: 95%;
+    }
+}
