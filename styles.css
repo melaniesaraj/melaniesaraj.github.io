@@ -10,6 +10,9 @@ body {
    font-style: normal; 
    margin: 0;
 }
+h1 {
+    margin: 0;
+}
 
 .accent-background-color {
     background-color: magenta;
@@ -18,11 +21,10 @@ body {
     color: magenta;
 }
 
-
 .main-container {
     display: flex;
     justify-content: center;
-    height: 100%;
+    min-height: 300px;
 }
 .main-content-box {
     color: white;
@@ -31,18 +33,55 @@ body {
     width: 75%;
     padding: 10px;
 }
+.left-box,
+.right-box {
+    flex: 1 1 0;
+}
 .left-box {
 }
 .right-box {
 }
 
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo-image-box {
+    flex-basis: 35%;
+}
+.summary-title-box {
+    padding-bottom: 10px;
+}
+.summary-contents-box {
+    flex-basis: 50%;
+}
+
+.splash-logo {
+    max-width: 100%;
+}
+
+
+@media (min-width: 800px) {
+    .main-container {
+        margin: 10px;
+    }
+}
+
+
 @media (max-width: 800px) {
+    h1 {
+        font-size: 1.5em;
+    }
     .main-content-box {
-        width: 90%;
+        width: 96%;
     }
 }
 
 @media (max-width: 500px) {
+    h1 {
+        font-size: 1.2em;
+    }
     .main-container {
         padding: 0 10px 0;
     }
