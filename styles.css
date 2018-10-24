@@ -119,3 +119,14 @@ h1 {
     padding: 1em;
     white-space: nowrap;
 }
+
+@media (max-width: 800px) {
+    body {
+        font-color: red;
+    }
+    .tape {
+        font-size: 2em !important;
+        height: 100px !important;
+        background-size: auto, auto 72px, auto !important;
+    }
+}
