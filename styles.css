@@ -54,6 +54,17 @@ h1 {
     max-width: 100%;
 }
 
+.members-container {
+    display: flex;
+    justify-content: center;
+}
+.member-parts-box {
+     text-align: right;
+     padding-right: 15px;
+}
+.member-names-box {
+    text-align: left;
+}
 
 /* large screen - add accent color margin around everything */
 @media (min-width: 800px) {
