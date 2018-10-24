@@ -22,7 +22,7 @@ h1 {
 }
 
 .padded-normal {
-    padding: 20px;
+    padding: 5px 20px;
 }
 
 .main-container {
@@ -84,7 +84,7 @@ h1 {
         font-size: 1.5em;
     }
     .padded-normal {
-        padding: 15px;
+        padding: 5px 15px;
     }
     .main-container {
         padding: 0 5% 0;
@@ -95,7 +95,7 @@ h1 {
         font-size: 1.2em;
     }
     .padded-normal {
-        padding: 10px;
+        padding: 5px 10px;
     }
     .main-container {
         padding: 0 10px 0;
@@ -125,8 +125,11 @@ h1 {
         font-color: red;
     }
     .tape {
-        font-size: 2em !important;
-        height: 100px !important;
-        background-size: auto, auto 72px, auto !important;
+        font-size: 2em;
+        height: 100px;
+        background-size: auto, auto 72px, auto;
+    }
+    .tape span {
+        padding: 1.05em;
     }
 }
