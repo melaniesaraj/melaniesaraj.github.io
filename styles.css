@@ -61,9 +61,17 @@ h1 {
 .member-parts-box {
      text-align: right;
      padding-right: 15px;
+     
+    /* fallback for mobile? */
+    display: inline-block;
+    max-width: 45%;
 }
 .member-names-box {
     text-align: left;
+    
+    /* fallback for mobile? */
+    display: inline-block;
+    max-width: 45%;
 }
 
 /* large screen - add accent color margin around everything */
