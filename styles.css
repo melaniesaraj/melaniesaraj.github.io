@@ -22,18 +22,18 @@ h1 {
 }
 
 .main-container {
-    display: flex;
-    justify-content: center;
-    min-height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0 10% 0;
 }
 .main-content-box {
     color: white;
     background-color: black;
     text-align: center;
-    width: 75%;
-    padding: 10px;
+    padding: 15px;
+    min-height: 100%;
 }
-.left-box, .right-box { }
 
 .splash-container {
     display: flex;
@@ -62,29 +62,29 @@ h1 {
      text-align: right;
      padding-right: 15px;
      
-    /* fallback for mobile? */
+    /* fallback */
     display: inline-block;
     max-width: 45%;
 }
 .member-names-box {
     text-align: left;
     
-    /* fallback for mobile? */
+    /* fallback*/
     display: inline-block;
     max-width: 45%;
 }
 
-/* large screen - add accent color margin around everything */
-@media (min-width: 800px) {
-    .main-container {
-        margin: 10px;
-    }
-}
 
 /* responsive design for smaller screens */
 @media (max-width: 800px) {
     h1 {
         font-size: 1.5em;
+    }
+    .main-content-box {
+        padding: 10px;
+    }
+    .main-container {
+        padding: 0 5% 0;
     }
 }
 @media (max-width: 500px) {
@@ -94,7 +94,6 @@ h1 {
     .main-container {
         padding: 0 10px 0;
     }
-    .main-content-box {
-        width: 100%;
-    }
 }
+
+/* caution tape - from  */
