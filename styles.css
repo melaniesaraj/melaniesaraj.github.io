@@ -1,7 +1,14 @@
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
    font-family: "FantasqueSansMonoRegular", "Lucida Grande", Tahoma, Sans-Serif; 
    font-weight: normal; 
    font-style: normal; 
+   margin: 0;
 }
 
 .accent-background-color {
@@ -13,20 +20,16 @@ body {
 
 
 .main-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    height: 100%;
 }
-.main-content {
+.main-content-box {
     color: white;
     background-color: black;
     text-align: center;
     width: 75%;
+    padding: 10px;
 }
 .left-box {
 }
@@ -34,7 +37,16 @@ body {
 }
 
 @media (max-width: 800px) {
-    .main-content {
+    .main-content-box {
         width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-container {
+        padding: 0 10px 0;
+    }
+    .main-content-box {
+        width: 100%;
     }
 }
