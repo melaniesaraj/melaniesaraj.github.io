@@ -14,7 +14,8 @@ h1 {
     margin: 0;
 }
 
-.accent-background-color {
+.accent-background-color,
+.hover-accent-background-color:hover  {
     background-color: magenta;
 }
 .accent-color {
@@ -77,6 +78,16 @@ h1 {
     max-width: 45%;
 }
 
+.social-link {
+    display: inline-block;
+    padding: 4px 4px 1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
 
 /* responsive design for smaller screens */
 @media (max-width: 800px) {
