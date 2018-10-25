@@ -31,6 +31,7 @@ h1 {
     top: 0;
     bottom: 0;
     padding: 0 10% 0;
+    max-width: 100%; /* lol IE */
 }
 .main-content-box {
     color: white;
@@ -40,18 +41,17 @@ h1 {
 }
 
 .splash-container {
-    display: flex;
+    /* display: flex; */ /* IE hates this */
+    display: block; 
     flex-direction: column;
     justify-content: flex-start;
 }
 .logo-image-box {
-    flex-basis: 35%;
 }
 .summary-title-box {
     padding-bottom: 10px;
 }
 .summary-contents-box {
-    flex-basis: 50%;
 }
 
 .splash-logo {
@@ -69,7 +69,6 @@ h1 {
      text-align: right;
      padding-right: 15px;
 
-     
     /* fallback */
     display: inline-block;
     max-width: 45%;
@@ -114,6 +113,7 @@ h1 {
     }
     .main-container {
         padding: 0 10px 0;
+        max-width: 500px; /* lol IE */
     }
 }
 
