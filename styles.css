@@ -99,9 +99,13 @@ h1 {
     height: 30px;
 }
 
+.releases-box {
+    padding-bottom: 50px;
+}
+
 .album-cover {
     width: 80%;
-    max-width: 400px;
+    max-width: 300px;
     border: 1px solid transparent;
 }
 .album-link:hover .album-cover {
@@ -112,9 +116,10 @@ h1 {
 .album-text-link {
     margin-top: 7px;
     color: magenta;
+    text-decoration: underline;
 }
 .album-text-link:hover, .album-link:hover .album-text-link {
-    text-decoration: underline;
+    color: white;
 }
 
 /* responsive design for smaller screens */
