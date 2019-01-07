@@ -22,6 +22,9 @@ h1 {
 .accent-color {
     color: magenta;
 }
+.block {
+    display: block;
+}
 
 .padded-normal {
     padding: 5px 20px;
@@ -94,6 +97,24 @@ h1 {
 .social-icon {
     width: 30px;
     height: 30px;
+}
+
+.album-cover {
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid transparent;
+}
+.album-link:hover .album-cover {
+    opacity: 0.8;
+    border-radius: 10px;
+    border-color: #ccc;
+}
+.album-text-link {
+    margin-top: 7px;
+    color: magenta;
+}
+.album-text-link:hover, .album-link:hover .album-text-link {
+    text-decoration: underline;
 }
 
 /* responsive design for smaller screens */
