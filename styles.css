@@ -50,6 +50,7 @@ h1 {
     justify-content: flex-start;
 }
 .logo-image-box {
+    padding-top: 15px;
 }
 .summary-title-box {
     padding-bottom: 10px;
