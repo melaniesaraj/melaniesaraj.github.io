@@ -104,6 +104,9 @@ h1 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.email-box a:hover {
+    color: white;
+}
 
 .releases-box {
     padding-bottom: 50px;
@@ -176,9 +179,6 @@ h1 {
 }
 
 @media (max-width: 800px) {
-    body {
-        font-color: red;
-    }
     .tape {
         font-size: 2em;
         height: 100px;
@@ -187,4 +187,40 @@ h1 {
     .tape span {
         padding: 1.05em;
     }
+}
+
+/* press kit */
+
+.banner-box {
+    height: 100px;
+    background-color: black;
+    border-bottom: 3px dotted magenta;
+    /*text-align: left;*/
+}
+.banner-logo {
+    height: 100%;
+}
+
+.main-epk-box {
+    padding: 20px;
+}
+
+.press-card {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px dashed transparent;
+    padding: 15px;
+    font-size: 1em;
+    max-width: 100%;
+}
+@media (max-width: 800px) {
+    .press-card {
+        width: 100%;
+    }
+}
+.press-card.press-card-bio {
+    text-align: left;
+}
+.press-card.press-card-music {
+
 }
