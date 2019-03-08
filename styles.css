@@ -110,25 +110,30 @@ h1 {
 
 .releases-box {
     padding-bottom: 50px;
+	text-align: center;
 }
 
 .album-cover {
     width: 80%;
     max-width: 300px;
+    border-radius: 10px;
     border: 1px solid transparent;
 }
-.album-link:hover .album-cover {
-    opacity: 0.8;
-    border-radius: 10px;
-    border-color: #ccc;
-}
 .album-text-link {
+	display: block;
+	width: 80%;
+	max-width: 300px;
+	font-size: 1.3em;
     margin-top: 7px;
     color: magenta;
     text-decoration: underline;
+	width: 100%;
+	padding: 10px;
 }
-.album-text-link:hover, .album-link:hover .album-text-link {
-    color: white;
+.album-text-link:hover {
+	color: white;
+	background-color: magenta;
+	border-radius: 5px;
 }
 
 /* responsive design for smaller screens */
