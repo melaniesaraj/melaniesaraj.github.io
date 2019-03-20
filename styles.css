@@ -13,6 +13,7 @@ body {
 }
 h1 {
     margin: 0;
+	font-family: "ConstructiumRegular", Tahoma, Sans-Serif;
 }
 
 .accent-background-color,
@@ -157,10 +158,10 @@ h1 {
         padding: 0 10px 0;
         max-width: 500px; /* lol IE */
     }
-.social-icon {
-    width: 25px;
-    height: 25x;
-}
+	.social-icon {
+		width: 25px;
+		height: 25x;
+	}
 }
 
 /* construction tape - from http://cssdeck.com/labs/under-construction-tape */  
