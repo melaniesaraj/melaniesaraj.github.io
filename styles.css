@@ -83,6 +83,7 @@ h1 {
 }
 .member-names-box {
     text-align: left;
+	font-family: "ConstructiumRegular", Tahoma, Sans-Serif;
     
     /* fallback*/
     display: inline-block;
