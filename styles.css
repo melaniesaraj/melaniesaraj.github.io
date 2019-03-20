@@ -74,8 +74,9 @@ h1 {
     justify-content: center;
 }
 .member-parts-box {
-     text-align: right;
-     padding-right: 15px;
+    text-align: right;
+    padding-right: 15px;
+	font-family: "ConstructiumRegular", Tahoma, Sans-Serif;
 
     /* fallback */
     display: inline-block;
@@ -83,7 +84,6 @@ h1 {
 }
 .member-names-box {
     text-align: left;
-	font-family: "ConstructiumRegular", Tahoma, Sans-Serif;
     
     /* fallback*/
     display: inline-block;
