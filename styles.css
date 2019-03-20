@@ -103,6 +103,7 @@ h1 {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+	font-size: 1.2em;
 }
 .email-box a:hover {
     color: white;
@@ -149,9 +150,6 @@ h1 {
     }
 }
 @media (max-width: 500px) {
-    h1 {
-        font-size: 1.2em;
-    }
     .padded-normal {
         padding: 5px 10px;
     }
