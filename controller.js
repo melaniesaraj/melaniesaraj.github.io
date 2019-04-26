@@ -26,11 +26,10 @@ function shuffle(array) {
 }
 
 $(document).ready(function() {
-    // put band members in random order
+    // put band members in random order.
     members = shuffle(members);
-    console.log(members);
     
-    // add them to the page in that order
+    // add them to the page in that order.
     var memberParts = $('.member-parts-box span');
     var memberNames = $('.member-names-box span');
     for (var i = 0; i < members.length; i++) {

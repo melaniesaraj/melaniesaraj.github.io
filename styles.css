@@ -13,7 +13,7 @@ body {
 }
 h1 {
     margin: 0;
-	font-family: "AnaktoriaRegular", "Lucida Grande", Tahoma, Sans-Serif; 
+    font-family: "AnaktoriaRegular", "Lucida Grande", Tahoma, Sans-Serif; 
 }
 
 .accent-background-color,
@@ -104,7 +104,7 @@ h1 {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 .email-box a:hover {
     color: white;
@@ -112,7 +112,7 @@ h1 {
 
 .releases-box {
     padding-bottom: 50px;
-	text-align: center;
+    text-align: center;
 }
 
 .album-cover {
@@ -122,26 +122,31 @@ h1 {
     border: 1px solid transparent;
 }
 .album-text-link {
-	display: block;
-	width: 80%;
-	max-width: 300px;
-	font-size: 1.3em;
-    margin-top: 7px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    font-size: 1.3em;
+    margin-top: 8px;
     color: magenta;
     text-decoration: underline;
-	width: 100%;
-	padding: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
 }
-.album-text-link:hover {
-	color: white;
-	background-color: magenta;
-	border-radius: 5px;
+.album-text-link:hover,
+.album-text-link:focus,
+.album-text-link:active {
+    color: white;
+    background-color: magenta;
 }
 
 /* responsive design for smaller screens */
 @media (max-width: 800px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.8em;
+    }
+    .album-text-link {
+        font-size: 1.2em;
     }
     .padded-normal {
         padding: 5px 15px;
@@ -158,9 +163,14 @@ h1 {
         padding: 0 10px 0;
         max-width: 500px; /* lol IE */
     }
-	.social-icon {
-		width: 25px;
-		height: 25x;
+    .social-icon {
+        width: 25px;
+        height: 25x;
+    }
+	.album-text-link {
+		background-color: darkmagenta;
+		color: white;
+		text-decoration: none;
 	}
 }
 
