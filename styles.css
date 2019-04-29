@@ -217,6 +217,7 @@ body.epk {
     background-color: black;
     border-bottom: 3px dotted magenta;
     /*text-align: left;*/
+   text-align: center;
 }
 .banner-logo {
     height: 100%;
