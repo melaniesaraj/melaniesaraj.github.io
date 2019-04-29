@@ -9,6 +9,8 @@ body {
    font-weight: normal; 
    font-style: normal; 
    margin: 0;
+}
+body.index {
    text-align: center;
 }
 h1 {
@@ -43,8 +45,10 @@ h1 {
 .main-content-box {
     color: white;
     background-color: black;
-    text-align: center;
     min-height: 100%;
+}
+body.index .main-content.box {
+    text-align: center;
 }
 
 .splash-container {
@@ -167,11 +171,11 @@ h1 {
         width: 25px;
         height: 25x;
     }
-	.album-text-link {
-		background-color: darkmagenta;
-		color: white;
-		text-decoration: none;
-	}
+    .album-text-link {
+        background-color: darkmagenta;
+        color: white;
+        text-decoration: none;
+    }
 }
 
 /* construction tape - from http://cssdeck.com/labs/under-construction-tape */  
@@ -205,6 +209,9 @@ h1 {
 
 /* press kit */
 
+body.epk {
+    text-align: unset;
+}
 .banner-box {
     height: 100px;
     background-color: black;
@@ -218,12 +225,19 @@ h1 {
 .main-epk-box {
     padding: 20px;
 }
+@media (max-width: 500px) {
+    .epk-table td {
+        display: block;
+        width: 100%;
+    }
+}
 
 .press-card {
-    display: inline-block;
+    font-family: "caladea";
+    /* display: inline-block; */
     background-color: transparent;
     border: 1px dashed transparent;
-    padding: 15px;
+    padding: 5px;
     font-size: 1em;
     max-width: 100%;
 }
@@ -237,4 +251,21 @@ h1 {
 }
 .press-card.press-card-music {
 
+}
+.press-card.press-card-gallery {
+    width: 100%;
+}
+.press-card em {
+    font-weight: 600;
+}
+
+.bandcamp-iframe {
+    border: 0;
+    width: 100%;
+    max-width: 350px;
+    height: 522px;
+}
+.gallery-iframe {
+    width: 100%;
+    height: 420px;
 }
