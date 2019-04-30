@@ -292,7 +292,7 @@ body.epk {
     .bandcamp-iframe {
         width: 150px;
     }
-    .member-parts-box {
+    .epk .member-parts-box {
         line-height: 32px;
     }
 }
@@ -307,8 +307,9 @@ body.epk {
         display: block;
         width: 100%;
     }
-    .member-parts-box {
-        line-height: unset;
+    .epk .member-parts-box,
+    .epk .member-names-box {
+        line-height: 24px;
     }
 }
 
@@ -318,6 +319,7 @@ body.epk {
 }
 .epk-table td.press-card-members {
     vertical-align: middle;
+    color: magenta;
 }
 
 iframe {
