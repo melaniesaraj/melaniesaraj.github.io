@@ -226,47 +226,79 @@ body.epk {
 .main-epk-box {
     padding: 20px;
 }
-@media (max-width: 500px) {
-    .epk-table td {
-        display: block;
-        width: 100%;
-    }
+
+.epk-table td {
+    vertical-align: top;
 }
 
 .press-card {
     font-family: "caladea";
-    /* display: inline-block; */
-    background-color: transparent;
-    border: 1px dashed transparent;
-    padding: 5px;
     font-size: 1em;
-    max-width: 100%;
-}
-@media (max-width: 800px) {
-    .press-card {
-        width: 100%;
-    }
-}
-.press-card.press-card-bio {
-    text-align: left;
-}
-.press-card.press-card-music {
-
-}
-.press-card.press-card-gallery {
-    width: 100%;
+    background-color: transparent;
+    padding: 5px;
 }
 .press-card em {
     font-weight: 600;
 }
 
+.press-card.press-card-music {
+    width: 350px;
+}
 .bandcamp-iframe {
     border: 0;
-    width: 100%;
-    max-width: 350px;
-    height: 522px;
+    width: 350px;
+    height: 520px;
 }
+
+.press-card.press-card-gallery {
+    width: 100%;
+}
+
 .gallery-iframe {
+    border: 0;
     width: 100%;
     height: 420px;
+}
+
+.press-card-contact-box-small {
+    display: none;
+}
+.contact-box-small {
+    padding: 0 5px 5px;
+}
+
+@media (max-width: 800px) {
+    .press-card.press-card-music {
+        width: 250px;
+    }
+    .bandcamp-iframe {
+        width: 250px;
+    }
+    .contact-box-medium {
+        display: none;
+    }
+    .press-card-contact-box-small {
+        display: table-cell;
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .press-card.press-card-music {
+        width: 150px;
+    }
+    .bandcamp-iframe {
+        width: 150px;
+    }
+}
+@media (max-width: 500px) {
+    .press-card.press-card-music {
+        width: 350px;
+    }
+    .bandcamp-iframe {
+        width: 350px;
+    }
+    .epk-table td {
+        display: block;
+        width: 100%;
+    }
 }
