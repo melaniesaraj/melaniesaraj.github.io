@@ -22,6 +22,9 @@ h1 {
 .hover-accent-background-color:hover  {
     background-color: magenta;
 }
+.accent-background-color.epk {
+    background-color: darkmagenta;
+}
 .accent-color {
     color: magenta;
 }
@@ -218,9 +221,8 @@ body.epk {
 .banner-box {
     height: 100px;
     background-color: black;
-    border-bottom: 3px dotted magenta;
-    /*text-align: left;*/
-   text-align: center;
+    border-bottom: 3px dotted darkmagenta;
+    text-align: center;
 }
 .banner-logo {
     height: 100%;
