@@ -50,6 +50,9 @@ h1 {
 body.index .main-content.box {
     text-align: center;
 }
+body.gallery {
+    padding: 5px;
+}
 
 .splash-container {
     /* display: flex; */ /* IE hates this */
@@ -289,6 +292,9 @@ body.epk {
     .bandcamp-iframe {
         width: 150px;
     }
+    .member-parts-box {
+        line-height: 32px;
+    }
 }
 @media (max-width: 500px) {
     .press-card.press-card-music {
@@ -301,4 +307,16 @@ body.epk {
         display: block;
         width: 100%;
     }
+}
+
+.video-iframe {
+    width: 100%;
+    height: 300px;
+}
+.epk-table td.press-card-members {
+    vertical-align: middle;
+}
+
+iframe {
+    border-radius: 3px;
 }
