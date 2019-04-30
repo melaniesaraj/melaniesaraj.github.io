@@ -307,6 +307,9 @@ body.epk {
         display: block;
         width: 100%;
     }
+    .member-parts-box {
+        line-height: unset;
+    }
 }
 
 .video-iframe {
