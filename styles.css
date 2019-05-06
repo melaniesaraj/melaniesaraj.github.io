@@ -22,7 +22,8 @@ h1 {
 .hover-accent-background-color:hover  {
     background-color: magenta;
 }
-.accent-background-color.epk {
+.accent-background-color.epk,
+.accent-background-color.index {
     background-color: darkmagenta;
 }
 .accent-color {
@@ -65,6 +66,7 @@ body.gallery {
 }
 .logo-image-box {
     padding-top: 15px;
+    max-width: 600px;
 }
 .summary-title-box {
     padding-bottom: 10px;
@@ -272,6 +274,18 @@ body.epk {
     padding: 0 5px 5px;
 }
 
+<!-- responsive by min size rules -->
+@media (min-width: 1100px) {
+    .press-card {
+        font-size: 1.2em;
+    }
+}
+@media (min-height: 1000px) {
+    .banner-box {
+        height: 150px;
+    }
+}
+<!-- responsive by max size rules -->
 @media (max-width: 800px) {
     .press-card.press-card-music {
         width: 250px;
