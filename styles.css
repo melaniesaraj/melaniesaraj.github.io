@@ -184,6 +184,9 @@ body.gallery {
         color: white;
         text-decoration: none;
     }
+    body.gallery {
+        padding: 5px 10px 5px 5px;
+    }
 }
 
 /* construction tape - from http://cssdeck.com/labs/under-construction-tape */  
