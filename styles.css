@@ -55,7 +55,7 @@ body.index .main-content.box {
     text-align: center;
 }
 body.gallery {
-    padding: 5px;
+    padding: 0 5px 0 0;
 }
 
 .splash-container {
@@ -236,6 +236,7 @@ body.epk {
 
 .epk-table td {
     vertical-align: top;
+    padding: 10px;
 }
 
 .press-card {
@@ -262,7 +263,7 @@ body.epk {
 }
 
 .gallery-iframe {
-    border: 0;
+    border: 5px solid magenta;
     width: 100%;
     height: 420px;
 }
@@ -273,25 +274,32 @@ body.epk {
 .contact-box-small {
     padding: 0 5px 5px;
 }
+.contact-box-medium {
+    padding-top: 5%;
+}
 
-<!-- responsive by min size rules -->
+/* responsive by min size rules */
 @media (min-width: 1100px) {
     .press-card {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
 @media (min-height: 1000px) {
     .banner-box {
         height: 150px;
     }
+    body {
+        text-color: magenta;
+    }
 }
-<!-- responsive by max size rules -->
+
+/* responsive by max size rules */
 @media (max-width: 800px) {
     .press-card.press-card-music {
-        width: 250px;
+        width: 300px;
     }
     .bandcamp-iframe {
-        width: 250px;
+        width: 300px;
     }
     .contact-box-medium {
         display: none;
@@ -303,10 +311,10 @@ body.epk {
 }
 @media (max-width: 700px) {
     .press-card.press-card-music {
-        width: 150px;
+        width: 200px;
     }
     .bandcamp-iframe {
-        width: 150px;
+        width: 200px;
     }
     .epk .member-parts-box {
         line-height: 32px;
@@ -326,6 +334,13 @@ body.epk {
     .epk .member-parts-box,
     .epk .member-names-box {
         line-height: 24px;
+    }
+}
+@media (max-height: 700px) {
+    .gallery-iframe {
+        border: 0;
+        width: 100%;
+        height: 380px;
     }
 }
 
