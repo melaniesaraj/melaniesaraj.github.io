@@ -238,6 +238,10 @@ body.epk {
     vertical-align: top;
 }
 
+.epk .main-container {
+    min-width: 320px;
+}
+
 .press-card {
     font-family: "caladea";
     font-size: 1em;
@@ -322,11 +326,9 @@ body.epk {
 @media (max-width: 500px) {
     .press-card.press-card-music {
         width: 100%;
-        min-width: 350px;
     }
     .bandcamp-iframe {
         width: 100%;
-        min-width: 350px;
     }
     .epk-table td {
         display: block;
@@ -335,6 +337,9 @@ body.epk {
     .epk .member-parts-box,
     .epk .member-names-box {
         line-height: 24px;
+    }
+    .main-epk-box {
+        padding: 7px;
     }
 }
 @media (max-height: 700px) {
