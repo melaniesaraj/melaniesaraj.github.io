@@ -236,7 +236,6 @@ body.epk {
 
 .epk-table td {
     vertical-align: top;
-    padding: 10px;
 }
 
 .press-card {
@@ -322,10 +321,12 @@ body.epk {
 }
 @media (max-width: 500px) {
     .press-card.press-card-music {
-        width: 350px;
+        width: 100%;
+        min-width: 350px;
     }
     .bandcamp-iframe {
-        width: 350px;
+        width: 100%;
+        min-width: 350px;
     }
     .epk-table td {
         display: block;
