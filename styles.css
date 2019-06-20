@@ -380,10 +380,6 @@ body.epk {
     font-family: "FantasqueSansMonoRegular", "Lucida Grande", Tahoma, Sans-Serif;
 }
 
-.footer {
-    display: block;
-    padding-bottom: 20px;
-}
 .full-epk-link {
     /* display: block; */
     /* width: 80%; */
@@ -407,4 +403,21 @@ body.epk {
 
 iframe {
     border-radius: 3px;
+}
+
+.footer {
+    display: block;
+    padding-bottom: 30px;
+}
+
+/* gallery */
+
+.gallery-footer {
+    display: block;
+    padding: 20px;
+    text-align: right;
+    font-family: "FantasqueSansMonoRegular", "Lucida Grande", Tahoma, Sans-Serif;
+}
+.gallery-link {
+    color: black;
 }
