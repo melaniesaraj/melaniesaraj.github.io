@@ -122,6 +122,10 @@ body.gallery {
     color: white;
 }
 
+.epk-box {
+    margin: 15px 0;
+}
+
 .releases-box {
     padding-bottom: 50px;
     text-align: center;
@@ -133,23 +137,36 @@ body.gallery {
     border-radius: 10px;
     border: 1px solid transparent;
 }
-.album-text-link {
+.album-text-link,
+.epk-link {
     display: block;
     width: 80%;
     max-width: 300px;
     font-size: 1.3em;
     margin-top: 8px;
-    color: magenta;
-    text-decoration: underline;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+}
+.album-text-link {
+    color: magenta;
+    text-decoration: underline;
 }
 .album-text-link:hover,
 .album-text-link:focus,
 .album-text-link:active {
     color: white;
     background-color: magenta;
+}
+.epk-link {
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+}
+.epk-link:hover,
+.epk-link:focus,
+.epk-link:active {
+    background-color: white;
 }
 
 /* responsive design for smaller screens */
@@ -359,7 +376,33 @@ body.epk {
 }
 .epk-table td.press-card-members {
     vertical-align: middle;
+    color: aquamarine;
+    font-family: "FantasqueSansMonoRegular", "Lucida Grande", Tahoma, Sans-Serif;
+}
+
+.footer {
+    display: block;
+    padding-bottom: 20px;
+}
+.full-epk-link {
+    /* display: block; */
+    /* width: 80%; */
+    max-width: 300px;
+    font-size: 1em;
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.full-epk-link {
     color: magenta;
+    text-decoration: underline;
+}
+.full-epk-link:hover,
+.full-epk-link:focus,
+.full-epk-link:active {
+    color: white;
+    background-color: magenta;
 }
 
 iframe {
