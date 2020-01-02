@@ -168,6 +168,12 @@ body.gallery {
 .epk-link:active {
     background-color: white;
 }
+.date-text {
+    font-size: 1.2em;
+}
+.news-separator {
+    font-size: 1.3em;
+}
 
 /* responsive design for smaller screens */
 @media (max-width: 800px) {
