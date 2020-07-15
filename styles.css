@@ -137,6 +137,11 @@ body.gallery {
     border-radius: 10px;
     border: 1px solid transparent;
 }
+.announcement-photo {
+    width: 80%;
+    max-width: 550px;
+    border-radius: 10px;
+}
 .album-text-link,
 .epk-link {
     display: block;
