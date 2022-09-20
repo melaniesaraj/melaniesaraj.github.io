@@ -59,7 +59,6 @@ body.gallery {
 }
 
 .splash-container {
-    /* display: flex; */ /* IE hates this */
     display: block; 
     flex-direction: column;
     justify-content: flex-start;
@@ -70,8 +69,6 @@ body.gallery {
 }
 .summary-title-box {
     padding-bottom: 10px;
-}
-.summary-contents-box {
 }
 
 .splash-logo {
@@ -212,9 +209,6 @@ body.gallery {
         color: white;
         text-decoration: none;
     }
-    /* body.gallery {
-        padding: 5px 10px 5px 5px;
-    } */
 }
 
 /* construction tape - from http://cssdeck.com/labs/under-construction-tape */  
@@ -246,7 +240,9 @@ body.gallery {
     }
 }
 
-/* press kit */
+/*******************************************
+ * press kit
+ *******************************************/
 
 body.epk {
     text-align: unset;
@@ -299,7 +295,7 @@ body.epk {
 .gallery-iframe {
     border: 5px solid magenta;
     width: 100%;
-    height: 420px;
+    height: 426px;
 }
 
 .contact-box-medium {
@@ -316,6 +312,11 @@ body.epk {
 }
 
 /* responsive by min size rules */
+@media (min-width: 1600px) {
+    .press-card {
+        font-size: 1.3em !important;
+    }
+}
 @media (min-width: 1100px) {
     .epk-table {
         table-layout: fixed;
@@ -324,7 +325,7 @@ body.epk {
         width: 30%;
     }
     .press-card {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .video-iframe {
         width: 100%;
@@ -443,7 +444,9 @@ iframe {
     padding: 30px;
 }
 
-/* gallery */
+/*******************************************
+ * gallery
+ *******************************************/
 
 .gallery-footer {
     display: block;
