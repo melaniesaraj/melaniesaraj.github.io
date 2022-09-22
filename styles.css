@@ -354,7 +354,7 @@ body.epk {
 }
 
 /* responsive by max size rules */
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .press-card.press-card-music {
         width: 300px;
     }
